@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Wildflower Digital</title>
+    <!-- Google Fonts for Dark Academia Vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="images/logo.png" alt="RK Wildflower Studio Logo" class="hero-logo">
+        
+        <!-- NAVIGATION LINKS -->
+        <div class="nav-links">
+            <a href="#products-section">Shop Templates</a>
+            <a href="#psychology-section">Psychology Notes</a>
+            <a href="#feedback-section">Request a Product</a>
+        </div>
+
+        <h1>Creative Digital Products Made With Love</h1>
+        <p>Beautiful planners, templates, and creative tools designed to help you organize, create, and inspire.</p>
+        
+        <button onclick="document.getElementById('products-section').scrollIntoView({behavior: 'smooth'});">
+            Explore Products
+        </button>
+    </section>
+
+    <!-- MOCKUP IMAGES SECTION -->
+    <div class="mockup-section">
+        <img src="images/mockup1.png" alt="Template Mockup 1" class="mockup-img">
+    </div>
+
+    <!-- MENU SECTION -->
+    <section class="products" id="products-section">
+        <h2>Our Menu</h2>
+        
+        <div class="menu-container">
+            
+            <!-- LEFT SIDE: Individual Items Menu -->
+            <div class="menu-list">
+                <h3 class="menu-title">Choose Your Template</h3>
+                
+                <!-- Bulletin Board -->
+                <div class="menu-item">
+                    <span>Bulletin Board</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180869&signature=d7ab3bea312b6cd8fdd726c2aa4feac6961b3acbbe94e5d1128e2f16654b3ccc" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+                
+                <!-- Mind Map -->
+                <div class="menu-item">
+                    <span>Mind Map</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180870&signature=209617fd1d023fe147e597891bbc3fb9c9a253e2db7b2fff202607f76dff3d19" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+                
+                <!-- Mini Note Page -->
+                <div class="menu-item">
+                    <span>Mini Note Page</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180871&signature=f6196c980d63c5286f78ebb35cc3dda7d9ed18380da2bc6269d4470dede8e8d4" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+                
+                <!-- Monthly Calendar -->
+                <div class="menu-item">
+                    <span>Monthly Calendar</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180873&signature=105eb552114ee452c49dace1283ceec14802a3e8fb2d47eda41d14bcb52bc729" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+                
+                <!-- Reminder -->
+                <div class="menu-item">
+                    <span>Reminder</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180874&signature=a2e4937859609cbfc76d38318e23d718e66ed1b52fd103ba85e34e650db61cb2" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+                
+                <!-- To-Do List -->
+                <div class="menu-item" style="border-bottom: none;">
+                    <span>To-Do List</span>
+                    <a href="https://tt.wipayfinancial.com/Invoice/view?id=180875&signature=0959d170636750db8cc9cb83f5a51215255302aa947c9b3bbab801f0f2c21a25" target="_blank">
+                        <button class="mini-buy-btn">Buy $8</button>
+                    </a>
+                </div>
+
+                <!-- Full Bundle Option -->
+                <div class="menu-total">
+                    <strong>Get the Full Bundle:</strong>
+                    <span class="price-highlight">$15 USD</span>
+                </div>
+                
+                <a href="https://tt.wipayfinancial.com/Invoice/view?id=180889&signature=1b003761b70862616daabb208080326ad00c9abd14fab97d9d827b864d9cc0e4" target="_blank">
+                    <button class="buy-btn">Buy Bundle - $15 USD</button>
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE: The Slideshow -->
+            <div class="menu-image-box">
+                <div class="slideshow">
+                    <img id="bundle-image" src="images/bulletinboard.png" alt="Bulletin Board">
+                    <div class="nav-buttons">
+                        <button onclick="previousImage()" class="arrow-btn">&lt;</button>
+                        <button onclick="nextImage()" class="arrow-btn">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PSYCHOLOGY STUDY GUIDE SECTION -->
+    <section class="products" id="psychology-section">
+        <h2>Are you a Psychology Student?</h2>
+        
+        <div class="menu-container">
+            <!-- LEFT SIDE: Info -->
+            <div class="menu-list">
+                <h3 class="menu-title">Intro to Psychology Notes</h3>
+                
+                <p class="description">
+                    Covers the topic of stress as well as how the body and mind responds to stress.
+                    <br><br>
+                    <strong>What you get:</strong> 5 fully detailed pages designed in Canva. 
+                    <br><br>
+                    <em>The first preview is clear. Click the arrow to see the rest (blurred). Full clear PDF will be emailed upon purchase.</em>
+                </p>
+
+                <div class="menu-total">
+                    <strong>Price:</strong>
+                    <span class="price-highlight">$8 USD</span>
+                </div>
+
+                <!-- ⬇️ INSTRUCTION NOTE (MOVED TO TOP) ⬇️ -->
+                <div class="instruction-box">
+                    <p><strong>📝 How to use your template:</strong><br>
+                    1. Open the link you received in your email.<br>
+                    2. At the <strong>top left-hand corner</strong> of your screen, click on <strong>'File'</strong>.<br>
+                    3. In the dropdown menu, look for and select <strong>'Make a copy'</strong>.<br>
+                    4. Sign up for a <strong>free</strong> Canva account (if you don't already have one).<br>
+                    5. Your design will now open as a brand new, fully editable copy!</p>
+                </div>
+                
+                <!-- Buy Button -->
+                <a href="https://tt.wipayfinancial.com/Invoice/view?id=180890&signature=cd709c460b822c8c9334164e4973e0b5634e0e6320b035d15281ebe0c405c093" target="_blank">
+                    <button class="buy-btn">Buy Now - $8</button>
+                </a>
+                                <p style="font-size: 12px; color: #6a5a4a; margin-top: 15px; max-width: 400px; margin-left: auto; margin-right: auto; line-height: 1.4; border-top: 1px dashed #c0a080; padding-top: 12px;">
+                    📝 <strong>Disclaimer:</strong> This guide is a supplemental study aid and should not be submitted as your own original work. Digital products are <strong>non-refundable</strong>. Please contact us if you have any file issues.
+                </p>
+            </div>
+
+            <!-- RIGHT SIDE: Slideshow -->
+            <div class="menu-image-box">
+                <div class="slideshow">
+                    <img id="psych-image" src="images/slide1.png" alt="Psychology Study Guide Preview">
+                    <div class="nav-buttons">
+                        <button onclick="previousPsychImage()" class="arrow-btn">&lt;</button>
+                        <button onclick="nextPsychImage()" class="arrow-btn">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEEDBACK SECTION -->
+    <section class="products" id="feedback-section" style="padding: 60px 20px; background-color: #f8f3ec; text-align: center; border-top: 1px solid #c0a080;">
+        <h2 style="color: #4c1e1e;">We Value Your Input!</h2>
+        <p style="font-family: 'Lora', serif; font-size: 16px; color: #5a4a3a; max-width: 500px; margin: 0 auto 20px auto;">
+            Have a request for a specific template or study guide? Let us know what you'd love to see next!
+        </p>
+        
+        <a href="https://forms.gle/EmQkegijmRBHRP3j9" target="_blank" style="text-decoration: none;">
+            <button style="background-color: #4c1e1e; color: #f4e9d8; padding: 12px 30px; border: none; border-radius: 30px; font-size: 16px; cursor: pointer; font-family: 'Lora', serif;">
+                Submit Feedback & Ideas 📝
+            </button>
+        </a>
+    </section>
+
+</body>
+</html>
